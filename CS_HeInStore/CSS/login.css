@@ -1,0 +1,66 @@
+a {
+text-decoration: none;
+color: #fff;
+}
+
+.login-wrapper {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login-wrapper h2 {
+    color: #333;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.login-form p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.textfield{
+    width: 286px;    
+    padding: 5px;
+}
+.inputbox{
+    margin-bottom: 15px;
+
+}
+
+.login-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    padding: 9px;
+    border: none;
+}
+
+.login-form input[type="submit"]:hover {
+    opacity: 0.9;   
+}
+
+#login-warning{
+    height: 20px;
+    font-size: 12px;
+}
+.registerlink{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#gotoregister{
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+

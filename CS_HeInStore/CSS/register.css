@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+
+.register-wrapper {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.register-wrapper h2 {
+    color: #333;
+}
+
+#pass-holder i{
+    font-size: 14px;
+}
+
+#pass-holder i:hover{
+    cursor: pointer;
+}
+
+
+
+.ul-holder{
+    font-size: 13px;
+    padding-top: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+.ul-holder ul{
+    padding: 10px 35px;
+    font-size: 13px;
+}
+
+.register-form {
+    margin-top: 20px;
+}
+
+.register-form p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#register-warning{
+    height: 20px;
+    font-size: 12px;
+}
+
+.textfield{
+    width: 286px;    
+    padding: 5px;
+}
+.inputbox{
+    margin-bottom: 15px;
+
+}
+
+.register-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    padding: 9px;
+    border: none;
+}
+
+.register-form input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+.loginlink{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#gotologin{
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+

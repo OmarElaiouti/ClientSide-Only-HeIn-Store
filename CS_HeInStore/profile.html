@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HeIn | Profile page</title>
+		<link rel="stylesheet" type="text/css" href="CSS/profile.css">
+		<link rel="stylesheet" type="text/css" href="CSS/header-footer.css">
+		<script src="https://kit.fontawesome.com/ae1079c787.js" crossorigin="anonymous"></script>
+        <script src="Javascript/profile.js"></script>
+        <script src="Javascript/dashboardIcon.js"></script>
+        <script src="Javascript/search.js"></script>
+
+
+		
+
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<a href="HomePage.html"><h1>HeIn</h1></a>
+			</div>
+			
+		   <div class="menu">
+			   <div class="menuItem" ><a href="HomePage.html" title="Home"><i class="fa-solid fa-house"></i></a></div>
+			   <div class="menuItem" ><a href="gallery.html" title="Gallery"><i class="fa-regular fa-clone"></i></a></div>
+			   <div class="menuItem"><a href="cart.html" title="My Cart"><i class="fa-solid fa-cart-shopping"></i></a></div>
+		   </div>
+		   <div class="searching">
+			<input type="text" name="search" class="searchinput" id="searchInput">
+			<div class='searchicon'><a id="search-link" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+		</div>
+		<div class="profile">
+
+			<a href='profile.html' id="login-path"><button id="user-button">Login</button></a>
+
+		</div>
+		</div>
+
+
+        <div class="profile-wrapper">
+            <h2>User Profile</h2>
+            <div class="profile-img">
+                <img src="images/profile/profile.png">
+
+            </div>
+
+            <div id="Allinfo">
+                <div id="profile-info">
+                </div>
+            
+                <div id="purchase-info"></div>
+            </div>
+            <div id="table-label">Previous purchases:</div>
+
+                <table id="purchase-table">
+                    <tr id="first-row">
+                        <th>Product</th>           
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>َQuantity</th>
+                        
+                    </tr>
+                </table>
+            
+            <div class="bottom-profile">
+                <form class="change-password-form" action="#" method="post">
+                <h3>Change Password</h3>
+                <div class="inputbox">
+                    <p>Old Password:</p>
+                    <input type="password" class="textfield" id="old-password">
+                </div>
+                <div class="inputbox">
+                    <p>New Password:</p>
+                    <input type="password" class="textfield" id="new-password">
+                </div>
+                <div class="inputbox">
+                    <p>Confirm New Password:</p>
+                    <input type="password" class="textfield" id="confirm-new-password">
+                </div>
+                <input type="submit" value="Change Password" id="new-password-button">
+                </form>
+                <input type="submit" value="Logout" id="logout-button">
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <div class="footermenu">
+                <div class="fmenuItem" ><a href="AboutUs.html">About us</a></div>
+                <div class="fmenuItem" ><a href="ContactUs.html">Contact us</a></div>
+                <div class="fmenuItem" ><a href="HomePage.html">Home</a></div>
+            </div>
+
+            <p>&copy; 2023 HeIn Store. All rights reserved.</p>
+        </div>
+    </body>
+</html>

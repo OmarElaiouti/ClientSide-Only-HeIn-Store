@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F2F3F4;
+    
+}
+.header {
+    background-color: #333;
+    height: 56px;
+    color: #fff;
+    padding: 20px 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    width: 115px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.logo img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Brush Script MT', cursive;
+}
+
+.searchicon{
+    display: inline-block;
+    width: 40px;
+}
+
+.menu{
+    display: inline-block;
+    width: 300px;
+    margin-left: 420px;
+    text-align: center;
+}
+.searching{
+    display: inline-block;
+    margin-left: 50px;
+   
+}
+
+.searchicon{
+    position: relative;
+    right: 38px;
+    display: inline-block;
+    width: 40px;
+    
+}
+.searchicon i{
+
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.searchinput{
+    width: 200px;
+    height: 34px;
+    border: none;
+    padding-left: 7px;
+    padding-right: 45px;
+    position: relative;
+    bottom: 3px;
+    border-radius: 30px;
+}
+
+.searchinput:focus,.searchinput:active{
+    border: none;
+}
+  
+.menuItem {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.menuItem:hover{
+    font-size: 25px;
+}
+
+.profile{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+}
+#user-button{
+    padding: 10px 20px;
+    border: none;
+    color: #333;
+    border-radius: 10px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+#user-button:hover{
+    padding: 12px 22px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.menu img{
+    width: 25px;
+}
+
+.header a, .footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.footer p{
+    font-size: 10px;
+}
+
+.fmenuItem{
+    display: inline-block;
+    padding: 20px;
+}
+
+.fmenuItem a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}

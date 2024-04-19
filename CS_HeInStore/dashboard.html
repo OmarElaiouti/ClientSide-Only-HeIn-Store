@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HeIn | Dashboard</title>
+    <script src="https://kit.fontawesome.com/ae1079c787.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="CSS/header-footer.css">
+    <script src="Javascript/dashboard.js"></script>
+    <script src="Javascript/dashboardIcon.js"></script>
+    <script src="Javascript/search.js"></script>
+
+
+		
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="HomePage.html"><h1>HeIn</h1></a>
+        </div>
+        
+       <div class="menu">
+           <div class="menuItem" ><a href="HomePage.html" title="Home"><i class="fa-solid fa-house"></i></a></div>
+           <div class="menuItem" ><a href="gallery.html" title="Gallery"><i class="fa-regular fa-clone"></i></a></div>
+           <div class="menuItem"><a href="cart.html" title="My Cart"><i class="fa-solid fa-cart-shopping"></i></a></div>
+       </div>
+       <div class="searching">
+        <input type="text" name="search" class="searchinput" id="searchInput">
+        <div class='searchicon'><a id="search-link" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+    </div>
+    <div class="profile">
+
+        <a href='profile.html' id="login-path"><button id="user-button">Login</button></a>
+
+    </div>
+    </div>
+
+    <div class="dashboard-wrapper">
+        <h2>Dashboard</h2>
+
+        <div class="crud-form">
+
+            <form id="crudProductForm">
+                <h3>Add or Update Product</h3>
+
+                <p>Product ID:</p>
+                <input type="text" id="productId">
+                
+                <p>Product Image:</p>
+                <input type="text" id="productImage" >
+                
+                <p>Price:</p>
+                <input type="text" id="productPrice" >
+
+                <p>Amount:</p>
+                <input type="text" id="productAmount" >
+                
+                <p>Brief Description:</p>
+                <textarea id="briefDescription" rows="2" cols="30"></textarea>
+                
+                <p>Full Description:</p>
+                <textarea id="fullDescription" rows="4" cols="30"></textarea>
+                
+                <input type="submit" id="addproductbutton" value="Add Product">
+                <input type="submit" id="adjustproductbutton" value="Update Product">
+
+            </form>
+
+            <form id="removeProductForm">
+                <h3>Remove Product</h3>
+
+                <p>Product ID:</p>
+                <input type="text" id="productIdToRemove">
+        
+                <input type="submit" id="removeproductbutton" value="Remove Product">
+            </form>
+
+
+        </div>
+
+    <div class="productdisplay">
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>ID</th>
+                    <th>Image</th>
+                    
+                    <th>Price</th>
+                    <th>Brief Description</th>
+                    <th>Full Description</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <input type="submit" id="deleteSelected" value="Delete selected">
+
+    </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footermenu">
+            <div class="fmenuItem" ><a href="AboutUs.html">About us</a></div>
+            <div class="fmenuItem" ><a href="ContactUs.html">Contact us</a></div>
+            <div class="fmenuItem" ><a href="HomePage.html">Home</a></div>
+        </div>
+
+        <p>&copy; 2023 HeIn Store. All rights reserved.</p>
+    </div>
+</body>
+</html>

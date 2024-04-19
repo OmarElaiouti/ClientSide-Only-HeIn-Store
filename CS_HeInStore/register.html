@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HeIn | Register</title>
+    <script src="Javascript/register.js"></script>
+    <script src="Javascript/dashboardIcon.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="CSS/register.css">
+    <link rel="stylesheet" type="text/css" href="CSS/header-footer.css">
+    <script src="https://kit.fontawesome.com/ae1079c787.js" crossorigin="anonymous"></script>
+    <script src="Javascript/search.js"></script>
+
+
+		
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="HomePage.html"><h1>HeIn</h1></a>
+        </div>
+        
+       <div class="menu">
+           <div class="menuItem" ><a href="HomePage.html" title="Home"><i class="fa-solid fa-house"></i></a></div>
+           <div class="menuItem" ><a href="gallery.html" title="Gallery"><i class="fa-regular fa-clone"></i></a></div>
+           <div class="menuItem"><a href="cart.html" title="My Cart"><i class="fa-solid fa-cart-shopping"></i></a></div>
+       </div>
+       <div class="searching">
+        <input type="text" name="search" class="searchinput" id="searchInput">
+        <div class='searchicon'><a id="search-link" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+    </div>
+    <div class="profile">
+
+        <a href='profile.html' id="login-path"><button id="user-button">Login</button></a>
+
+    </div>
+    </div>
+   
+    <div class="register-wrapper">
+        <h2>Register</h2>
+        <form class="register-form" action="#" method="post">
+            <div class="inputbox">
+                <p>Username:</p>
+                <input type="text" class="textfield" id="username" name="username" required>
+            </div>
+            <div class="inputbox">
+                <p>Email:</p>
+                <input type="text" class="textfield" id="email" name="email" required>
+            </div>
+            <div class="inputbox">
+                <div class="ul-holder">
+                    * Use a strong password that consists of:
+                    <ul>
+                        <li>8 elements at least</li>
+                        <li>1 letter at least</li>
+                        <li>1 number at least</li>
+                        <li>1 special character at least</li>
+                    </ul>
+                </div>
+                <p id="pass-holder">Password:</p>
+                <input type="password" class="textfield" id="password" name="password" required>
+            </div>
+            <div class="inputbox">
+                <p>Confirm Password:</p>
+                <input type="password" class="textfield" id="confirm-password" name="confirm-password" required>
+            </div>
+            <!-- <div class="inputbox">
+                <p>Date of Birth:</p>
+                <div class="dob-select">
+                    <select name="day" id="day" required>
+                        <option value="" disabled selected>Day</option>
+                    </select>
+                    <select name="month" id="month" required>
+                        <option value="" disabled selected>Month</option>
+                    </select>
+                    <select name="year" id="year" required>
+                        <option value="" disabled selected>Year</option>
+                    </select>
+                </div>
+            </div> -->
+            <div id="register-warning"></div>
+            <input type="submit" value="Register">
+            <p id="gotologin">Already a member? <a href="#" class="loginlink">log in now!</a></p>
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footermenu">
+            <div class="fmenuItem" ><a href="AboutUs.html">About us</a></div>
+            <div class="fmenuItem" ><a href="ContactUs.html">Contact us</a></div>
+            <div class="fmenuItem" ><a href="HomePage.html">Home</a></div>
+        </div>
+
+        <p>&copy; 2023 HeIn Store. All rights reserved.</p>
+    </div>
+</body>
+</html>
