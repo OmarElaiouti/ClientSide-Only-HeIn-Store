@@ -9,12 +9,10 @@
 ### User-Side Features:
 
 1. **Homepage**: Provides an overview of the store and featured products.
-2. **Profile**: Allows registered users to view and update their profile information, check purchase history, and contact the store administrator.
-   - **Purchase History**: Displays a list of previous purchases made by the user.
-   - **Contact Us**: Allows users to send inquiries or feedback to the store administrator via email.
+2. **Profile**: Allows registered users to view their profile info and update their profile password and check purchase history.
 3. **Register**: Enables users to create a new account on the platform.
 4. **Gallery**: Displays a collection of clothing items available for purchase.
-5. **Contact Us**: Provides a form for users to send inquiries or feedback to the store.
+5. **Contact Us**: Provides a form for users to send inquiries or feedback to the store administrator via email.
 6. **About Us**: Presents information about the store's mission, vision, and values.
 7. **Cart**: Allows users to add products to their cart, view cart items, and proceed to checkout.
 
